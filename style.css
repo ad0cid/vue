@@ -1,0 +1,42 @@
+header{
+    margin-bottom: 2%;
+}
+.tel{
+    color: #3c6f4c;
+    border: #3c6f4c solid 1px;
+}
+.fondo{
+    background-color: #1f3b08;
+    padding:1% 0;
+}
+.fondo h3{
+    color: white;
+}
+input{
+    border: 0;
+    border-bottom: solid 1px #3c6f4c;      
+}
+.white{
+    background-color: white;
+}
+.marcas{
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 2%;
+}
+hr{
+    border: solid 2px #3c6f4c;
+}
+.beneficios{
+    display: block;
+    margin: auto;
+}
+.fondoGris{
+    background-color: #f8f8f8;
+}
+.fondo h2{
+    color: white;
+    padding: 5%;
+}
+
