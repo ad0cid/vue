@@ -22,15 +22,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6 col-md-10">
+    <header id="header" :class="container-fluid" >
+        <div :class="'row'">
+            <div :class="['col-sm-6', 'col-md-10']">
                 <a href="index.html">
                     <img src="img/logo2.jpg" alt="logo">
                 </a>    
             </div>
-            <div class="col-sm-6 col-md-2">
-                <button class="btn mt-1 tel">(55) 1902 - 3683</button>
+            <div :class="['col-sm-6', 'col-md-2']">
+                <button :class="['btn', 'mt-1', 'tel']">(55) 1902 - 3683</button>
             </div>
         </div>
     </header>

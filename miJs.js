@@ -1,9 +1,3 @@
 const app = new Vue({
-    el:,
-    data:{
-
-    },
-    methods:{
-
-    }
+    el:"#header",
 })
