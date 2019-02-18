@@ -9,7 +9,7 @@ header{
     background-color: #1f3b08;
     padding:1% 0;
 }
-.fondo h3{
+.txtb{
     color: white;
 }
 input{
@@ -18,15 +18,13 @@ input{
 }
 .white{
     background-color: white;
+    padding:1%;
 }
 .marcas{
     display: block;
     margin: auto;
     width: 100%;
     margin-bottom: 2%;
-}
-hr{
-    border: solid 2px #3c6f4c;
 }
 .beneficios{
     display: block;
@@ -35,8 +33,10 @@ hr{
 .fondoGris{
     background-color: #f8f8f8;
 }
-.fondo h2{
-    color: white;
-    padding: 5%;
+h3{
+    border-bottom: #3c6f4c solid 2px;
 }
-
+.fondo>h2{
+    border-bottom: solid 2px #3c6f4c;
+    border-width: 5%;
+}

@@ -25,7 +25,9 @@
     <header class="container-fluid">
         <div class="row">
             <div class="col-sm-6 col-md-10">
-                <img src="img/logo2.jpg" alt="logo">
+                <a href="index.html">
+                    <img src="img/logo2.jpg" alt="logo">
+                </a>    
             </div>
             <div class="col-sm-6 col-md-2">
                 <button class="btn mt-1 tel">(55) 1902 - 3683</button>
@@ -35,20 +37,19 @@
     <div class="fondo">
         <section class="container">
             <div class="col-sm-12">
-                <h3 class="text-center">¡Cotiza tu Seguro de Auto en segundos!</h3>
+                <h2 class="text-center txtb">¡Cotiza tu Seguro de Auto en segundos!</h2>
             </div>
             <div class="row white"> <!--formulario-->
-                <div class="col-md-2">
+                <div class="col-sm-2">
                     <img src="img/logo.jpg" alt="">
                 </div>
-                <div class="col-md-10">
-                    <hr>
+                <div class="col-sm-10">
                     <form action="">
                         <div class="row">
-                            <input type="text" class="mb-3 mr-sm-2" placeholder="Nombre">
-                            <input type="text" class="mb-3 mr-sm-2" placeholder="Correo Electrónico">
-                            <input type="text" class="mb-3 mr-sm-2" placeholder="Teléfono">
-                            <input type="text" class="mb-3 mr-sm-2" placeholder="Código postal">
+                            <input type="text" class="mb-3 mr-sm-2" required placeholder="Nombre">
+                            <input type="text" class="mb-3 mr-sm-2"required placeholder="Correo Electrónico">
+                            <input type="text" class="mb-3 mr-sm-2" required placeholder="Teléfono">
+                            <input type="text" class="mb-3 mr-sm-2" required placeholder="Código postal">
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
@@ -58,7 +59,9 @@
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <button type="button" class="btn btn-success btn-lg btn-block">Comparar precios ahora</button>
+                                <a href="comparar.html">
+                                    <button type="button" class="btn btn-success btn-lg btn-block">Comparar precios ahora</button>
+                                </a>
                             </div>
                         </div>
                     </form>
@@ -71,7 +74,6 @@
                 <div class="col-md-8 col-sm-12">
                     <div class="card"> 
                         <h2>Ventajas de contar con un Seguro de Auto</h2>
-                        <hr>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur qui non saepe optio fuga ipsa, rerum nesciunt vitae facilis reprehenderit ut dolor maxime voluptate quas incidunt, voluptas reiciendis animi inventore.</p> 
                         <ul>
                             <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas beatae deserunt, dignissimos accusantium consequuntur libero incidunt consequatur, totam alias in harum? Sunt iure consectetur accusamus illum dignissimos, atque praesentium cupiditate?</li>
@@ -100,10 +102,8 @@
             <div class="row">
                  <div class="col-sm-12">
                     <h3 class="mt-3">COMPARA YA, más que un experto: ¡tu amigo!</h3>
-                    <hr>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla expedita provident soluta nemo velit odio sit, illum facere illo ipsam aspernatur veniam cumque voluptas dolores sapiente quibusdam quod modi delectus.</p>                 <p>Velit dignissimos eligendi nobis aut architecto neque asperiores, quasi officiis ad rerum natus praesentium ratione alias tenetur excepturi aliquam eaque possimus accusamus dolorem nulla sed enim totam. Explicabo, odit ut?</p>
                     <h3 class="mt-5">Coberturas blablabla beneficios costos</h3>
-                    <hr>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet id dolor cum cumque minima porro voluptates velit deleniti, ratione sequi temporibus voluptatibus, ullam blanditiis consequatur, voluptatem quaerat quam ipsum?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veritatis natus repellendus laboriosam vitae cumque quisquam, aspernatur est ab neque incidunt voluptatum facere reprehenderit ipsam optio autem nobis consequuntur excepturi.</p>
                     <p>Voluptate ipsam quia modi aut sint obcaecati aperiam nulla doloribus quas asperiores eaque veniam vero, dolor, quis deleniti minima est. Possimus doloremque mollitia consectetur quibusdam alias, consequuntur architecto? Ratione, mollitia!</p>
@@ -119,9 +119,8 @@
             </div>
         </div>    
     </section>
-    <section class="fondo"> <!--fondo verde texto blanco-->
-        <h2 class="text-center">¿Cómo comparar un Seguro de Auto?</h2>
-        <hr>
+    <section class="fondo p-5"> <!--fondo verde texto blanco-->
+        <h2 class="text-center txtb ">¿Cómo comparar un Seguro de Auto?</h2>
     </section>
     <section>
         <div class="container">
@@ -136,7 +135,6 @@
             <div class="container">
                 <div class="row"> <!--fondo gris-->
                     <h3>¿Qué es lo más importante al contratar una Tarjeta de Crédito?</h3>
-                    <hr>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe temporibus mollitia voluptate corrupti, dicta tenetur obcaecati quod, vel nesciunt est, sapiente numquam blanditiis quas laborum beatae assumenda illum sunt.</p>
                     <p>Deserunt sapiente laborum voluptate numquam consequatur ut esse accusamus quisquam voluptas fugiat tempore optio asperiores voluptates at eveniet veniam, vel, nobis ipsa! Mollitia quam eum omnis eligendi minus autem id.</p>
                     <ul>
@@ -159,5 +157,10 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="miJs.js"></script>
+    <script> /*codigo para bloquear el boton de regresar*/
+        window.location.hash="no-back-button";
+        window.location.hash="Again-No-back-button";//esta linea es necesaria para chrome
+        window.onhashchange=function(){window.location.hash="no-back-button";}  
+    </script>
 </body>
 </html>
